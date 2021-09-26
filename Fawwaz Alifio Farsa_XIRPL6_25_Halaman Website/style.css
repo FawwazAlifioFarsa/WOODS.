@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    z-index: 100;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+nav.putih{
+    background-color:rgb(245, 237, 237);
+}
+h1{
+    font-family: 'Luckiest Guy', cursive;
+}
+nav.putih .buttons{
+    color: #333;
+}
+nav{
+    background-color: rgb(24, 17, 17);
+    height: 64px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+nav .logo1{
+    color: black;
+    float: left;
+    margin-top: 9px;
+    font-size: 20pt;
+    position: fixed;
+}
+nav .logo2{
+    color: white;
+    float: left;
+    margin-top: 9px;
+    font-size: 20pt;
+    position: fixed;
+}
+nav ul{
+    position: relative;
+    font-family: 'Staatliches', cursive;
+    float: right;
+    margin-top: 17px;
+    margin-right: -130px;
+    
+}
+nav .buttons1 ul li{
+    display: inline-block;
+}
+nav .buttons1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18pt;
+    padding: 16.2px 60px;
+    border: 0px solid;
+    transition: 0.6s;
+}
+nav .buttons1 ul li a:hover{
+    background-color: white;
+    color: #000;
+}
+nav .buttons2 ul li{
+    display: inline-block;
+}
+nav .buttons2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18pt;
+    padding: 17px 60px;
+    border: 0px solid;
+    transition: 0.6s;
+}
+nav .buttons2 ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.menu{
+    max-width: 1200px;
+    margin: auto;
+}
+#home{
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(assets/autumn.png);
+    background-size: 125%;
+    height: 93vh;
+    margin: auto;
+}
+h2{
+    font-family: 'Staatliches', cursive;
+}
+.judul1{
+    position: absolute;
+    font-size: 50pt;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.wood{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25pt;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#about{
+    background-color: rgb(24, 17, 17);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 3%;
+}
+.judul2{
+    color: white;
+    font-size: 27pt;
+    text-align: center;
+    padding-top: 14vh;
+}
+.tentang{
+    color: white;
+    font-family: 'Glory', sans-serif;
+    text-align: center;
+    font-size: 17pt;
+    padding-top: 2vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    margin: auto;
+}
+body{
+    background-color: rgb(255, 238, 162);
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#list{
+    height: 100vh;
+    padding: 7.5vw 8vw 0 8vw;
+    text-align: center;
+    font-size: 27pt;
+}
+.lane1{
+    font-size: 14.5pt;
+    padding-top: 20px;
+}
+.lane1 h3{
+    padding-top: 8px;
+}
+.lane1 img{
+    width: 115px;
+    transition: 0.3s;
+}
+.lane1 .contain1{
+    width: 20%;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 0px solid;
+    float: left;
+}
+.lane1 img:hover{
+    width: 125px;
+    transition: 0.3s;
+}
+.lane2{
+    font-size: 14.5pt;
+    padding-top: 300px;
+}
+.lane2 h3{
+    padding-top: 8px;
+}
+.lane2 img{
+    width: 115px;
+    transition: 0.3s;
+}
+.lane2 .contain1{
+    width: 20%;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 0px solid;
+    float: left;
+}
+.lane2 img:hover{
+    width: 125px;
+    transition: 0.3s;
+}
+.article img{
+    width: 160px;
+}
+.article h3{
+    color: white;
+}
+.article p{
+    color: white
+}
+.type1{
+    box-shadow: -10px -10px 5px rgba(0,0,0,0.6);
+    background-color: rgb(24, 17, 17);
+    margin: 0 190px 50px 190px;
+    height: 50vh;
+}
+.type1 img{
+    float: left;
+    margin: 95px 40px 80px 40px;
+}
+.type1 h3{
+    padding: 75px 0px 0px ;
+    font-size: 22pt;
+}
+.type1 p{
+    margin: 0px 100px 0px 100px;
+    font-family: 'Glory', sans-serif;
+    font-size: 14pt;
+}
+.type1 p a{
+    color: white;
+    font-size: 16pt;
+}
+.type2{
+    box-shadow: 10px -10px 5px rgba(0,0,0,0.6);
+    background-color: rgb(248, 240, 240);
+    margin: 0 190px 50px 190px;
+    height: 50vh;
+    text-align: justify;
+}
+.type2 img{
+    float: right;
+    margin: 95px 40px 80px 40px;
+}
+.type2 h3{
+    color: rgb(24, 17, 17);
+    padding: 60px 100px 0px ;
+    font-size: 22pt;
+}
+.type2 p{
+    color: rgb(24, 17, 17);
+    margin: 10px 100px 0px 100px;
+    font-family: 'Glory', sans-serif;
+    font-size: 14pt;
+}
+.type2 p a{
+    color: rgb(24, 17, 17);
+    font-size: 16pt;
+}
+.line{
+    text-align: center;
+}
+.line img{
+    width: 500px;
+    height: 50px;
+}
+#redwood h3{
+    padding-top: 60px;
+}
+#pine h3{
+    padding-top: 65px;
+}
+#cherry h3{
+    padding-top: 65px;
+}
+#ash h3{
+    padding-top: 70px;
+}
+footer{
+    background-color: rgb(24, 17, 17);
+    height: 8vh;
+    padding-top: 12px;
+    color: white;
+    text-align: center;
+    font-size: 14pt;
+}
